@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
+import  Cake  from './cake';
 
 function App() {
   const [age, setCount] = useState(50)
@@ -8,7 +9,7 @@ function App() {
   return (
     <div className="App">
 
-      <h1>!Feliz Cumpleanos Jorge!</h1>
+      <Cake name="Jorge" cake="/public/birthday.png" />
       <div className="card">
         <button onClick={() => setCount((age) => age + 1)}>
           Your now  {age}
