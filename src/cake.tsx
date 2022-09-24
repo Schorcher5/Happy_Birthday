@@ -9,8 +9,8 @@ interface PersonProps{
 const Cake: FC<PersonProps> = ({ name, cake }) =>{
     return (
         <>
-            <h1>Feliz Cumpleanos {name}!</h1>
-            <img src={cake}></img>
+            <h1 className="pb-10">Feliz Cumpleanos {name}!</h1>
+            <img className="" src={cake}></img>
 
         </>
     )
